@@ -1,0 +1,95 @@
+@import url("home.css");
+@import url("products.css");
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Libre+Baskerville&display=swap');
+
+*{
+    font-family: DsFont !important;
+    
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.61)),
+    url(../assets/images/home/bgc-imgae.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+.libre{
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* menu */
+
+#logo{
+    height: 100px;
+    width: auto;
+    transition: 0.4s;
+}
+
+nav a{
+    color: #9e8900 !important;
+}
+
+
+.menubg{
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.774)),
+    url(../assets/images/home/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #9e8900;
+}
+
+
+
+/* footer */
+
+footer{
+    color: #9e8900;
+    border-top: 1px solid #9e8900;
+    
+}
+
+.footerlogo img{
+    width: 50%;
+    height: auto;
+}
+
+.top{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 8px solid #9e8900;
+    border-radius: 50%;
+}
+
+.top:after{
+    content: '';
+    display: inline-block;
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+    border-top: 8px solid #9e8900;
+    border-right: 8px solid #9e8900;
+    transform: rotate(-45deg);
+}
+
+@font-face{
+    font-family: DsFont;
+    src: url(../assets/font/OptimusPrinceps.ttf);
+    src: url(../assets/font/OptimusPrincepsSemiBold.ttf);
+}
+
+/* cart */
+
+.tablecolor{
+    color: #9e8900;
+}
+
+.productview-card{
+    border: #9e8900 1px solid;
+    background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.61)),
+    url(../assets/images/home/banner.jpg);
+}

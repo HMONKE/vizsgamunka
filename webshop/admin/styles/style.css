@@ -1,0 +1,48 @@
+@font-face{
+    font-family: DsFont;
+    src: url(../../assets/font/OptimusPrinceps.ttf);
+    src: url(../../assets/font/OptimusPrincepsSemiBold.ttf);
+}
+*{
+    font-family: DsFont !important;
+    color: #9e8900 !important;
+}
+
+body{
+background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.61)),
+url(../../assets/images/home/bgc-imgae.png);
+background-attachment: fixed;
+background-repeat:no-repeat;
+background-size: cover;
+height: 100%;
+}
+
+#logo{
+    height: 100px;
+    width: auto;
+    transition: 0.4s;
+}
+
+nav a{
+    color: #9e8900 !important;
+}
+
+
+.menubg{
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.774)),
+    url(../../assets/images/home/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #9e8900;
+}
+
+img{
+    height: 200px;
+    width: auto;
+}
+
+h1{
+    text-align: center;
+    padding-top: 300px;
+}
